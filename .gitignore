@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local runs and generated artifacts
+outputs/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.log
+
+# Local job descriptions and scratch files
+jd_*.md
+sourcing_mvp.py
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

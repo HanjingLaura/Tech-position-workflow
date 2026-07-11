@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Candidate Sourcing"
+  short_description: "Find public algorithm and technical candidates from a JD"
+  default_prompt: "Use $tech-candidate-sourcing to turn this algorithm or technical JD into a public-email candidate table."
